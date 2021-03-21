@@ -1,0 +1,47 @@
+Bizu pra instalar as paradas do chatbot
+
+**lib Chatterbot --> https://pypi.org/project/ChatterBot/
+
+**Dependendo da versão pode dar esse erro 'ModuleNotFoundError: No module named 'chatterbot_corpus' ', para resolver isso eu apenas instalei o modulo faltante e isso resolveu: pip install chatterbot-corpus Link: https://github.com/gunthercox/ChatterBot/issues/1708
+**Vídeos base:
+	https://www.youtube.com/watch?v=uaTSw0cOCn4
+	https://towardsdatascience.com/build-your-first-voice-assistant-85a5a49f6cc1
+	
+
+Bizu do speech
+** lib speech recognition --> https://pypi.org/project/SpeechRecognition/
+** Para fucionar tem que instalar a dependencia PyAudio --> (http://people.csail.mit.edu/hubert/pyaudio/)
+**Vídeos base
+	https://www.youtube.com/watch?v=wbDszFKl9aE
+** lib Pocketsphinx (API) --> https://pypi.org/project/pocketsphinx/ #/# https://www.youtube.com/watch?v=1zf_-GuMboA  #/#  https://stackoverflow.com/questions/36523705/python-pocketsphinx-requesterror-missing-pocketsphinx-module-ensure-that-pocke
+
+Links:
+https://blog.stcloudstate.edu/ims/2017/12/11/top-ten-speech-recognition-apis/
+https://cmusphinx.github.io/wiki/
+
+Bizu sintetizador
+*******
+** lib espeak --> sudo apt install espeak // sudo apt install espeak-ng
+(funcional e da pra usar no python -- https://www.youtube.com/watch?v=5z3MVEc33FI)
+
+** lib festival --> sudo apt-get install festival // sudo apt-get install festival festvox-kallpc16k
+
+** lib do google, gTTS --> pip3 install gTTS // instalar um leitor de mídia (mplayer por exemplo) ou playsound in python
+
+Links: 
+http://wisercoder.com/install-festival-text-speech-ubuntu/
+http://machakux.appspot.com/blog/44003/making_speech_with_python
+https://cadernodelaboratorio.com.br/2017/08/25/sintese-de-voz-em-python/
+http://www.cstr.ed.ac.uk/projects/festival/manual/festival_7.html
+
+**** Antes de instalar essa lib vc precisa instalar o espeak ********
+**lib pyttsx3 --> pip install pyttsx3
+**Vídeos base
+	https://www.youtube.com/watch?v=W1vFZKdH23M
+	https://www.youtube.com/watch?v=wbDszFKl9aE
+Links: 
+https://github.com/RapidWareTech/pyttsx/issues/51
+
+
+
+
